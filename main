@@ -11,8 +11,8 @@ task.wait(1)
 -- Notification
 pcall(function()
 	StarterGui:SetCore("SendNotification", {
-		Title = "📢 Adrian Scripts Notice",
-		Text = "You Must Subscribe And Click Bell Button To See The Latest Script\nOn My YouTube: AdrianCrafts / AdrianScripts",
+		Title = "📢 Zysume Spawner",
+		Text = "the script on my videos are not released yet use this for now",
 		Duration = 10
 	})
 end)
@@ -306,7 +306,7 @@ local function createPetList()
 🦖 T-Rex
 🌸 Kitsune
 
-🎁 Join our Discord to win 20x Raccoon!
+
 ]]
 	petList.TextColor3 = Color3.new(1, 1, 1)
 	petList.BackgroundTransparency = 1
@@ -320,7 +320,7 @@ local function createPetList()
 	copyBtn.Size = UDim2.new(0.9, 0, 0, 35)
 	copyBtn.Position = UDim2.new(0.05, 0, 1, -45)
 	copyBtn.BackgroundColor3 = Color3.fromRGB(65, 130, 65)
-	copyBtn.Text = "📎 Copy Discord Link"
+	copyBtn.Text = "Use Before Patched"
 	copyBtn.TextColor3 = Color3.new(1, 1, 1)
 	copyBtn.Font = Enum.Font.GothamBold
 	copyBtn.TextSize = 15
@@ -328,12 +328,12 @@ local function createPetList()
 
 	copyBtn.MouseButton1Click:Connect(function()
 		local success = pcall(function()
-			setclipboard("https://discord.gg/admtDBsuXM")
+			setclipboard("")
 		end)
 		if success then
 			StarterGui:SetCore("SendNotification", {
-				Title = "Discord Copied!",
-				Text = "Invite link copied to clipboard ✅",
+				Title = "DONT TELL JANDEL",
+				Text = "hehehehhe",
 				Duration = 3
 			})
 		else
